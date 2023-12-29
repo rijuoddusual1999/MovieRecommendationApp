@@ -75,9 +75,11 @@ const SearchBar = () => {
           ))}
         </ul>
       </div>
+      <div>
       {recommendedMovies && (
         <SearchResult recommendedMovies={recommendedMovies} />
       )}
+      </div>
     </div>
   );
 };
