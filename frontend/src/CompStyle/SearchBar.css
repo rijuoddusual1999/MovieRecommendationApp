@@ -9,6 +9,8 @@
 }
 
 
+
+
 .bar{
     background-color: white;
     width: 100%;
@@ -31,7 +33,9 @@ input{
    outline: none;
 }
 
-
+.results{
+  position: relative;
+}
 
 
 .results ul {

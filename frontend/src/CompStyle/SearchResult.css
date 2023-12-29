@@ -1,5 +1,9 @@
-
 .searchResultContainer ul{
+    position: relative;
+}
+
+
+.searchResultContainer ul{  
   display: grid;
   grid-template-columns: repeat(7, 1fr); 
   gap: 26px; 
