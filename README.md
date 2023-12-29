@@ -1,4 +1,4 @@
-## Overview  📋
+## Overview  
 1. The web app is built using React.js for the front-end and python's  flask for the back-end.
 2. It enable user to search and go through a huge dataset of movies fetched from IMDB top 1000 movies huge dataset which includes multiple genre, language, multinational cast etc.
 3. The web app actively allows users to explore personalized movie recommendations, suggesting the top 10 films based on their input of movie. 
@@ -14,7 +14,8 @@
 3. Fetching Recommended Movie Name
 ![Alt text](<Screenshot from 2023-12-29 13-34-45.png>)
 
-
+4. API Testing with Postman
+![Alt text](<Screenshot from 2023-12-29 22-19-59.png>)
 
 ## Backend
 
@@ -69,7 +70,7 @@ Recommendation Function:
 
 
 
-## Installation 📦
+## Installation 
 1. Clone or download this repository to your local machine.
 2.  Go to backend directory && install all the libraries mentioned in the [requirements.txt] 
     ```shell
