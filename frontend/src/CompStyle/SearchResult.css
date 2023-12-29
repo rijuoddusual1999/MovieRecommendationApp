@@ -1,0 +1,32 @@
+
+.searchResultContainer ul{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); 
+  gap: 26px; 
+  list-style: none;
+  padding: 0;
+}
+
+
+.searchResultContainer {
+    color: white;
+  }
+  
+  .searchResultContainer h2 {
+    color: white;
+  }
+  
+  .searchResultContainer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .searchResultContainer li {
+    margin-bottom: 20px;
+  }
+  
+  .searchResultContainer img {
+    width: 200px;
+    height: auto;
+  }
+  
