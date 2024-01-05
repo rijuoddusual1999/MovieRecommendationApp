@@ -3,6 +3,7 @@ import '../CompStyle/SearchBar.css';
 import { FaSearch } from 'react-icons/fa';
 import SearchResult from './SearchResult';
 
+
 const SearchBar = () => {
   const [input, setInput] = useState("");
   const [searchResults, setSearchResults] = useState([]);
@@ -65,7 +66,7 @@ const SearchBar = () => {
         <button type="button" onClick={handleSearch}>
         <FaSearch id="search-icon" />
        </button>
-      </div>
+       </div>
       <div className='results'>
       <ul>
           {searchResults?.slice(0, 10).map((resultItem, index) => (
@@ -75,12 +76,13 @@ const SearchBar = () => {
           ))}
         </ul>
       </div>
-      <div>
+      <div className='posters'>
       {recommendedMovies && (
         <SearchResult recommendedMovies={recommendedMovies} />
       )}
       </div>
     </div>
+    
   );
 };
 
